@@ -1,0 +1,10 @@
+.container-fluid {
+    padding:0;
+    overflow: hidden;
+}
+hr {
+    width:2px;
+    height: 100%;
+    position: fixed;
+    background-color:grey;
+}

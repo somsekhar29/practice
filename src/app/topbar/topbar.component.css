@@ -1,0 +1,26 @@
+.border{
+    width:40px;
+    border-radius: 80px;
+    text-align: center;
+    float: right;
+}
+#mypic{
+    border-radius: 30px;
+}
+input{
+    background-color: #1a8cff;
+}
+::placeholder{
+    color: white;
+    font-weight: 400
+}
+@media screen and (max-width: 600px) {
+    a.width {
+      font-size: 25px;
+    }
+  }
+  #bottomshadow {
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+  }

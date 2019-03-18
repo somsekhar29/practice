@@ -1,0 +1,17 @@
+<form></form>
+<div class="sidenav mt-3">
+  <input type="search" class="ml-3" placeholder="search">
+    <a href="#"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Most Used Services &nbsp; <i class="fa fa-plus" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-home" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Home</a>
+    <a href="#"><i class="fa fa-address-card" aria-hidden="true"></i>&nbsp;&nbsp;About</a>
+    <a href="#"><i class="fa fa-phone" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;Contact</a>
+    <a href="#"><i class="fa fa-clipboard" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<span class="mr-5">Pages </span>&nbsp; <i class="fa fa-plus ml-5" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-th-large" aria-hidden="true"></i>&nbsp;<span class="ml-2" style="margin-right:33px;">Services</span> &nbsp; <i class="fa fa-plus ml-5" aria-hidden="true"></i></a>
+    <a href="#"><i class="fa fa-star" aria-hidden="true"></i>&nbsp;&nbsp;&nbsp;<span class="mr-5">Master</span>&nbsp; <i *ngIf="plusIcon" class="fa fa-plus" style="margin-left:45px;" (click)="showSubMenus()" aria-hidden="true"></i><i *ngIf="minusIcon" class="fa fa-minus" style="margin-left:45px;" (click)="hideSubMenus()" aria-hidden="true"></i></a>
+    <div id="submenulist" *ngIf="submenu" style="background-color:#ccffe6">
+      <a><i class="fa fa-chevron-right mr-2 ml-3" aria-hidden="true"></i>Category</a>
+      <a><i class="fa fa-chevron-right mr-2 ml-3" aria-hidden="true"></i>Insurance Area</a>
+      <a><i class="fa fa-chevron-right mr-2 ml-3" aria-hidden="true"></i>Insurance Risk category<br/><span style="margin-left:35px"> and Data Risk</span><br/><span style="margin-left:35px;">Management</span></a>
+      <a><i class="fa fa-chevron-right mr-2 ml-3" aria-hidden="true"></i>Principal Insured</a>
+    </div>
+  </div>
